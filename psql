@@ -1,1 +1,14 @@
+ACCESSING POSTGRES
+    $ psql database_name postgres
 
+
+READING DATA FROM POSTGRES
+    To show all tables:
+    $ \d;
+
+To list data from a particular table:
+    Newer versions:
+    $ TABLE mytablename;
+
+    Longer but works on all versions:
+    $ SELECT * FROM mytablename;
