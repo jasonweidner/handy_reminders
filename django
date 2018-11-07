@@ -1,0 +1,17 @@
+FROM INTERACTIVE PYTHON
+
+To test your database objects:
+>>> import django
+>>> django.setup()
+>>> from myapp.models import Model
+>>> Competitors.objects.all()
+
+
+To remove migration files from the database:
+>>> import django
+>>> django.setup()
+>>> from django.db.migrations.recorder import MigrationRecorder
+>>> MigrationRecorder.Migration.objects.all()
+>>> MigrationRecorder.Migration.objects.get(app = "CFcomp", name="0002_auto_20181106_1544").delete()
+
+
