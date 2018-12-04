@@ -3,6 +3,9 @@ ACCESSING POSTGRES
 
 
 READING DATA FROM POSTGRES
+    To show all databases:
+    $ \l;
+    
     To show all tables:
     $ \d;
 
