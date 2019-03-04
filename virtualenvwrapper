@@ -1,4 +1,8 @@
 $>mkvirtualenv mynewproject
 Creates a new virtual environment in $WORKON_HOME, which is defined in .bash_profile in ~/user/<username>/.bash_profile
 
-$>
+$>deactivate
+Shut-down a currently active virtual environment
+
+$>mkproject mynewproject
+Creates a new directory named mynewproject at $PROJECT_HOME, which is defined in .bash_profile, and sets pwd to mynewproject.
