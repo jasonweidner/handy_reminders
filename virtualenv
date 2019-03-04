@@ -6,3 +6,12 @@ Shut-down a currently active virtual environment
 
 $>mkproject mynewproject
 Creates a new directory named mynewproject at $PROJECT_HOME, which is defined in .bash_profile, and sets pwd to mynewproject.
+
+$>workon
+Lists out virtual envs available
+
+$>workon <environment name>
+Changes to <environment name>
+
+$>rmvirtualenv <environment name>
+The <environment name> must be deactivated before it can be removed.
