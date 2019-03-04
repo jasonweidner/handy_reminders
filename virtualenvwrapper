@@ -1,0 +1,4 @@
+$>mkvirtualenv mynewproject
+Creates a new virtual environment in $WORKON_HOME, which is defined in .bash_profile in ~/user/<username>/.bash_profile
+
+$>
