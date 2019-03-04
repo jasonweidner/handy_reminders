@@ -7,5 +7,11 @@ $>python --version
 Identifies python's current version
 
 .bash_profile adds to $PATH environment variable so python3 can be used to access the interpretter from anywhere...
-PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
+-- PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
+-- .bash_profile can be found at ~/user/<username>/.bash_profile
+
+IDLE can be launched with:
+$>python3 -m idlelib.idle
+
+
 
