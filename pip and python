@@ -1,0 +1,13 @@
+pip list
+List extensions installed for python 2
+**for the current environment**
+*may be different for a virtual environment*
+
+pip3 list
+List extensions installed for python 3
+**for the current environment**
+*may be different for a virtual environment*
+
+.bash_profile adds to $PATH environment variable so python3 can be used to access the interpretter from anywhere...
+PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
+
