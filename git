@@ -1,0 +1,3 @@
+List all remotes
+$ git remote -v
+
