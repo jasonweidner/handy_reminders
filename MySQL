@@ -1,0 +1,2 @@
+Log into MySQL from command line, using a password (it will prompt for the password):
+$> mysql -u root -p
