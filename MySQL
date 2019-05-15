@@ -4,3 +4,8 @@ $> mysql -u root -p
 MySQL dump
 This will prompt you for a password after hitting enter. The file will be created in the pwd:
 mysqldump --all-databases --single-transaction --user=username --password > filename.sql
+
+Run an *.sql file:
+1. From the command line, navigate to the directory of the file.
+2. Log into the mysql server (using the command above)
+3. >source filename.sql
