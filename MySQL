@@ -1,2 +1,6 @@
 Log into MySQL from command line, using a password (it will prompt for the password):
 $> mysql -u root -p
+
+MySQL dump
+This will prompt you for a password after hitting enter. The file will be created in the pwd:
+mysqldump --all-databases --single-transaction --user=username --password > filename.sql
