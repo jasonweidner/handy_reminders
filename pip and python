@@ -13,5 +13,10 @@ Identifies python's current version
 IDLE can be launched with:
 $>python3 -m idlelib.idle
 
-
+PYTEST Coverage run with:
+$>pytest --cov-report html:cov_html --cov-module_name .
+where:
+  cov_html is the folder where the html report will be generated
+  module_name is the module that will gets its coverage analysed
+  . is the location of the module being analysed
 
