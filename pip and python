@@ -1,9 +1,11 @@
-$>pip list OR pip3 list
+$pip list 
+  OR 
+$pip3 list
 List extensions installed for python 2/3
 **for the current environment**
 *may be different for a virtual environment*
 
-$>python --version
+$python --version
 Identifies python's current version
 
 .bash_profile adds to $PATH environment variable so python3 can be used to access the interpretter from anywhere...
@@ -11,10 +13,10 @@ Identifies python's current version
 -- .bash_profile can be found at ~/user/<username>/.bash_profile
 
 IDLE can be launched with:
-$>python3 -m idlelib.idle
+$python3 -m idlelib.idle
 
 PYTEST Coverage run with:
-$>pytest --cov-report html:cov_html --cov-module_name .
+$pytest --cov-report html:cov_html --cov-module_name .
 where:
   cov_html is the folder where the html report will be generated
   module_name is the module that will gets its coverage analysed
